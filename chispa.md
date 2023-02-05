@@ -6,7 +6,7 @@ Fun fact: "Chispa" means spark in Spanish.
 
 Here's how to test a column function:
 
-![unit-test1](https://github.com/MrPowers/data-scrapbook/blob/main/images/chispa/006-powers-unit-testing-chispa.png)
+<img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/chispa/006-powers-unit-testing-chispa.png" width="700" />
 
 Here's another example of how to test a column function:
 
