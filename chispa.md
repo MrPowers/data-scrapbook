@@ -10,5 +10,5 @@ Here's how to test a column function:
 
 Here's another example of how to test a column function:
 
-![unit-test2](https://github.com/MrPowers/data-scrapbook/blob/main/images/chispa/008-unit-test-column-function.png)
+<img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/chispa/008-unit-test-column-function.png" width="700" />
 
