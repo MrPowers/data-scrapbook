@@ -10,3 +10,8 @@ You can use quinn to validate the schema of a PySpark DataFrame.  You may want t
 
 <img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/quinn/002-quinn-validate-schema.png" width="700" />
 
+You can use quinn to validate the absence of columns in a PySpark DataFrame.  Suppose you're running a transformation that adds a column to a DataFrame.  You can use this function to validate that the column is missing before running the transformation.
+
+<img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/quinn/003-quinn-validate-absence-of-columns.png" width="700" />
+
+
