@@ -34,3 +34,19 @@ Quinn makes it easy to single space all the whitespace in a string.  This is gre
 
 <img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/quinn/008-quinn-single-space.png" width="700" />
 
+You can easily remove non-word characters from a PySpark string column using the quinn library.
+
+<img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/quinn/009-quinn-remove-non-word-characters.png" width="700" />
+
+You can use quinn to convert a column of a PySpark DataFrame to a Python list, but watch out.  This collects all the data to the driver node and won't work for large datsets.  Make sure to filter the column to reduce the data size before running this method.  It's best to look for alternatives.
+
+<img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/quinn/010-quinn-column-to-list.png" width="700" />
+
+You can use quinn to convert to columns of a PySpark DataFrame to a Python dictionary, but watch out.  This collects all the data in the two columns to the driver node.  This will cause the driver node to die with an out of memory exception if the dataset is too large.  Filter the data as much as possible before running this command.  It's best to look for alternatives.
+
+<img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/quinn/011-quinn-two-columns-to-dictionary.png" width="700" />
+
+Here's how to convert the string that's output via the PySpark DataFrame show() method into a DataFrame.  You may want to do this if your coworker sends you a DataFrame via Slack or you're trying to convert a StackOverflow question into a working code snippet.
+
+<img src="https://github.com/MrPowers/data-scrapbook/blob/main/images/quinn/012-quinn-show-output-to-df.png" width="700" />
+
