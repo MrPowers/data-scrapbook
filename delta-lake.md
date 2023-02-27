@@ -71,3 +71,7 @@ You can easily read a #deltalake table into a #polars DataFrame. The following i
 
 TODO: Find image :|
 
+## Other
+
+
+
